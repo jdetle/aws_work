@@ -1,0 +1,134 @@
+{
+  "exitError": "Error: yarn exited with non-zero code\n    at ChildProcess.<anonymous> (/Users/jdetlefs/github/one/gasket/packages/gasket-utils/lib/run-shell-command.js:44:37)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1048:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)",
+  "destOverride": true,
+  "cwd": "/Users/jdetlefs/github/one/aws_work",
+  "dest": "/Users/jdetlefs/github/one/aws_work/gasket-frontend-yarn",
+  "relDest": "./gasket-frontend-yarn",
+  "extant": false,
+  "pkgLinks": [],
+  "localPresets": [],
+  "rawPresets": [
+    "@gasket/preset-nextjs"
+  ],
+  "messages": [],
+  "warnings": [],
+  "errors": [
+    "Error: yarn exited with non-zero code\n    at ChildProcess.<anonymous> (/Users/jdetlefs/github/one/gasket/packages/gasket-utils/lib/run-shell-command.js:44:37)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1048:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)"
+  ],
+  "nextSteps": [],
+  "generatedFiles": {},
+  "appName": "gasket-frontend-yarn",
+  "rawPlugins": [
+    "@gasket/jest"
+  ],
+  "plugins": [
+    "@gasket/jest"
+  ],
+  "presets": [
+    "@gasket/nextjs"
+  ],
+  "presetInfos": [
+    {
+      "name": "@gasket/preset-nextjs",
+      "module": {},
+      "from": "cli",
+      "rawName": "@gasket/preset-nextjs",
+      "path": "/private/var/folders/n_/2mpj0djj2pdfnpx20z348k800000gp/T/gasket-1030685-394843391/package",
+      "package": {
+        "name": "@gasket/preset-nextjs",
+        "version": "6.34.5",
+        "description": "Basic NextJS Framework",
+        "main": "lib",
+        "types": "lib/index.d.ts",
+        "files": [
+          "lib"
+        ],
+        "repository": {
+          "type": "git",
+          "url": "git+ssh://git@github.com/godaddy/gasket.git"
+        },
+        "publishConfig": {
+          "access": "public"
+        },
+        "author": "GoDaddy Operating Company, LLC",
+        "license": "MIT",
+        "bugs": {
+          "url": "https://github.com/godaddy/gasket/issues"
+        },
+        "dependencies": {
+          "@gasket/plugin-express": "^6.34.4",
+          "@gasket/plugin-https": "^6.34.4",
+          "@gasket/plugin-log": "^6.34.4",
+          "@gasket/plugin-nextjs": "^6.34.5",
+          "@gasket/plugin-redux": "^6.34.4",
+          "@gasket/plugin-webpack": "^6.34.4"
+        },
+        "devDependencies": {
+          "@gasket/plugin-start": "^6.34.4"
+        },
+        "gitHead": "2927387d42678ca36d800aa4b4f16e85895244b2"
+      },
+      "version": "6.34.5",
+      "plugins": [
+        {
+          "name": "@gasket/plugin-express",
+          "module": null,
+          "from": "@gasket/preset-nextjs",
+          "range": "^6.34.4"
+        },
+        {
+          "name": "@gasket/plugin-https",
+          "module": null,
+          "from": "@gasket/preset-nextjs",
+          "range": "^6.34.4"
+        },
+        {
+          "name": "@gasket/plugin-log",
+          "module": null,
+          "from": "@gasket/preset-nextjs",
+          "range": "^6.34.4"
+        },
+        {
+          "name": "@gasket/plugin-nextjs",
+          "module": null,
+          "from": "@gasket/preset-nextjs",
+          "range": "^6.34.5"
+        },
+        {
+          "name": "@gasket/plugin-redux",
+          "module": null,
+          "from": "@gasket/preset-nextjs",
+          "range": "^6.34.4"
+        },
+        {
+          "name": "@gasket/plugin-webpack",
+          "module": null,
+          "from": "@gasket/preset-nextjs",
+          "range": "^6.34.4"
+        }
+      ],
+      "presets": []
+    }
+  ],
+  "cliVersion": "6.8.1",
+  "cliVersionRequired": "^6.8.1",
+  "appDescription": "A basic gasket app",
+  "packageManager": "yarn",
+  "installCmd": "yarn install",
+  "localCmd": "yarn gasket local",
+  "testPlugin": "@gasket/jest",
+  "pkg": {
+    "name": "gasket-frontend-yarn",
+    "version": "0.0.0",
+    "description": "A basic gasket app",
+    "dependencies": {
+      "@gasket/cli": "^6.8.1",
+      "@gasket/plugin-jest": "^6.34.5",
+      "@gasket/preset-nextjs": "^6.34.5"
+    }
+  },
+  "pkgManager": {
+    "manager": "yarn",
+    "dest": "/Users/jdetlefs/github/one/aws_work/gasket-frontend-yarn"
+  }
+}

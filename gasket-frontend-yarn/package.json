@@ -1,0 +1,10 @@
+{
+  "name": "gasket-frontend-yarn",
+  "version": "0.0.0",
+  "description": "A basic gasket app",
+  "dependencies": {
+    "@gasket/cli": "^6.8.1",
+    "@gasket/plugin-jest": "^6.34.5",
+    "@gasket/preset-nextjs": "^6.34.5"
+  }
+}
