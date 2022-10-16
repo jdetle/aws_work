@@ -3,11 +3,12 @@ import * as ec2 from "@aws-cdk/aws-ec2";
 import * as ecs from "@aws-cdk/aws-ecs";
 import * as ecs_patterns from "@aws-cdk/aws-ecs-patterns";
 import { DockerImageAsset } from "@aws-cdk/aws-ecr-assets";
+import { join } from 'path';
 export class AwsWorkStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
-    const APP_PORT = 3000
-    const pathToDockerFile = "../gasket-frontend-yarn"
+    const APP_PORT = 80
+    const pathToDockerFile = join(process.cwd(), "./gasket-frontend");
 
     const vpc = new ec2.Vpc(this, "MyVpc", {
       maxAzs: 2,

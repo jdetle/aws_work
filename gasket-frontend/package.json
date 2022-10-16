@@ -1,0 +1,37 @@
+{
+  "name": "gasket-frontend",
+  "version": "0.0.0",
+  "description": "A basic gasket app",
+  "scripts": {
+    "build": "gasket build",
+    "start": "gasket start",
+    "local": "gasket local",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@gasket/assets": "^6.34.4",
+    "@gasket/cli": "^6.8.1",
+    "@gasket/log": "^6.34.4",
+    "@gasket/nextjs": "^6.34.4",
+    "@gasket/plugin-jest": "^6.34.5",
+    "@gasket/preset-nextjs": "^6.34.5",
+    "@gasket/redux": "^6.34.4",
+    "express": "^4.16.3",
+    "lodash.merge": "^4.6.0",
+    "next": "^12.0.8",
+    "next-redux-wrapper": "^8.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "jest": "^27.4.3",
+    "webpack": "^5.21.2"
+  }
+}
